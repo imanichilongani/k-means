@@ -1,7 +1,7 @@
 # a6.py
 # Imani Chilongani, 
 # 11/16/2016
-"""K-means clustering algorithm"""
+"""K-means clustering algorithm to show visualization of data in csv files"""
 
 import math
 import random
@@ -9,7 +9,7 @@ import numpy
 
 
 def is_point(thelist):
-    """Return: True if thelist is a list of int or float"""
+    """Return: True if thelist is a list of int or float """
     if (type(thelist) != list):
         return False
     
